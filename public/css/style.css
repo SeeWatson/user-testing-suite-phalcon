@@ -1,0 +1,73 @@
+body {
+  position: relative;
+  background: #fefefe;
+}
+
+#cursor {
+  display: none;
+  position: absolute;
+}
+
+.mouse-click-animation {
+  position: absolute;
+}
+
+#stop {
+}
+
+#keyboard {
+}
+
+#keyboard .keyboard-row {
+  clear: both;
+}
+
+#keyboard .keyboard-row .keyboard-row {
+}
+
+#keyboard .key {
+  background: #ccc;
+  float: left;
+  margin: 0 3px 3px 3px;
+  position: relative;
+  height: 50px;
+  width: 50px;
+  
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+}
+
+#keyboard .key span {
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+}
+
+#keyboard .key.double {
+  width: 105px;
+}
+
+#keyboard .key.spacebar {
+  width: 330px;
+}
+
+#keyboard #arrowkeys .key {
+  height: 24px;
+}
+
+#keyboard #arrowkeys .key span {
+  bottom: 2px;
+}
+
+#keyboard #arrowkeys .row-1 {
+  position: relative;
+  left: 56px;
+  margin: 0 auto;
+}
+
+#keyboard #arrowkeys .row-2 {
+  position: relative;
+  right: 55px;
+  top: 25px;
+}
